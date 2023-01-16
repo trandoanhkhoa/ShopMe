@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/grid.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Shop Me</title>
+</head>
+<body>
+    
+        <div class="header">
+            <div class="header__top">
+                <div class="header__top-hotline">
+                    <p class="headr__top-phone"> 
+                        <i class='bx bxs-phone'></i>
+                        Hotline:0123456789
+                    </p>
+                </div>
+                <ul class="header__top-items">
+                    <li class="header__top-item">
+                        <a href="" class="header__top-link">
+                            <i class='bx bx-check-square'></i>
+                            Kiểm tra đơn hàng
+                        </a>
+                    </li>
+                    <li class="header__top-item">
+                        <a href="" class="header__top-link">
+                            <i class='bx bx-cart' ></i>
+                            Giỏ hàng
+                        </a>
+                    </li>
+                    <li class="header__top-item">
+                        <a href="" class="header__top-link">
+                            <i class='bx bx-log-in' ></i>
+                            Đăng nhập
+                        </a>
+                    </li>
+                    <li class="header__top-item">
+                        <a href="" class="header__top-link">
+                            <i class='bx bx-key' ></i>
+                            Đăng kí
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__middle">
+                <div class="header__md-logo">
+                    <img src="http://runecom02.runtime.vn/Uploads/shop2198/images/logo2.png" alt="" class="header__md-logo-main">
+                </div>
+                <div class="header__md-search">
+                    <input type="text" class="header__md-input" placeholder="Nhập từ khóa tìm kiếm ...">
+                    <button type="submit" class="header__md-btn">Tìm kiếm</button>
+                </div>
+                <div class="header__md-ctn">
+                    <div class="header__md-icon cart"><a href=""><i class='bx bx-cart-alt icon_md'></i></a></div>
+                    <div class="header__md-icon acc"><a href=""><i class='bx bx-user-circle icon_md' ></i></a></div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <ul class="header__bt-items">
+                    <li class="header__bt-item nav_active">
+                        <a href="" class="header__bt-link">Trang chủ</a>
+                    </li>
+                    <li class="header__bt-item">
+                        <a href="" class="header__bt-link">Giới thiệu</a>
+                    </li>
+                    <li class="header__bt-item">
+                        <a href="" class="header__bt-link">Sản phẩm</a>
+                    </li>
+                    <li class="header__bt-item">
+                        <a href="" class="header__bt-link">Tin tức</a>
+                    </li>
+                    <li class="header__bt-item">
+                        <a href="" class="header__bt-link">Liên hệ</a>
+                    </li>
+                    <li class="header__bt-item">
+                        <a href="" class="header__bt-link">
+                            Danh mục sản phẩm
+                            <i class='bx bx-menu icon__bt-nav' ></i>
+                        </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="swiper mycarousel">
+                <div class="swiper-wrapper container">
+                    <div class="swiper-slide slider">
+                        <img class="slider__img" src="./assets/imgs/img1.webp" alt="">
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img class="slider__img" src="./assets/imgs/img2.webp" alt="">
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img class="slider__img" src="./assets/imgs/img3.webp" alt="">
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img class="slider__img" src="./assets/imgs/img4.webp" alt="">
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img class="slider__img" src="./assets/imgs/img5.webp" alt="">
+                    </div>
+                </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="category__container-content">
+                <p class="category__content">Danh mục sản phẩm</p>
+            </div>
+            <div class="swiper categories">
+                <div class="swiper-wrapper container__categories">
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                    <div class="swiper-slide categories__item">
+                        <div class="categories__item-container-img"><img class="categories__item-img" src="./assets/imgs/mypham.png" alt=""></div>
+                        <p class="categories__name">Mỹ phẩm</p>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <div class="categories-pagination"></div> -->
+        </div>
+        <div class="product_search-more">
+            <div class="product_search_more-content">
+                <p class="product_search-content">Tìm kiếm hàng đầu</p>
+            </div>
+            <div class="swiper mySwiper">
+                <ul class="swiper-wrapper products__items">
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                    <li class="swiper-slide product__item-search">
+                        <div class="product__item-img">
+                            <img class="product__item_img-main" src="./assets/imgs/ao.jfif" alt="">
+                            <div class="product__item-detail">
+                                <p class="product__item_detail-main">Bán 69k+/tháng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product__item_container-name"><p class="product__item-name">Áo Thun Local Brand</p></div>
+                        <div class="product__item-top"><p class="product__item_top-content">TOP</p></div>
+                    </li>
+                </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="products__container-content">
+                <a href="" class="products__content">Gợi ý sản phẩm</a>
+            </div>
+            <ul class="list_products row">
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li class="product__item col l-2">
+                    <div class="container__item-prd">
+                        <div class="product__item-img">
+                            <img src="./assets/imgs/ganem.jfif" alt="" class="product_img">
+                        </div>
+                        <div class="product__details">
+                            <div class="product__container-name"><p class="product__name">Bộ ga gối m6/m8 drap giường poly, ga trải giường + 2 vỏ gối nằm hàng loại 1 được chọn màu</p></div>
+                            <div class="product__sale-more">Không hỗ trợ</div>
+                            <div class="product__sum">
+                                <div class="product__container-sum"><p class="product__price">15.000 <sup>đ</sup></p></div>
+                                <div class="product__container-sum"><p class="product__sold">Đã bán 40</p></div>
+                            </div>
+                        </div>
+                        <div class="product__sale">
+                            <span class="product__sale-value">50%</span>
+                            <span class="product__sale-content">Giảm</span>
+                        </div>
+                    </div>
+                   
+                </li>
+            </ul>
+            <div class="product__more"><btn class="products__more-btn"></btn></div>
+        </div>
+        <div class="footer row">
+            <div class="footer__container col l-3">
+                Thông tin:
+                <ul class="footer__items infor">
+                    <li class="footer__item">
+                        <span class="footer__item-content">Địa chỉ:</span>
+                        <p class="footer__item-para">123 Server Trái Đất,vũ trụ galaxy</p>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__item-content">Điện thoại:</span>
+                        <p class="footer__item-para">0123456789</p>
+                    </li>
+                    <li class="footer__item">
+                        <span class="footer__item-content">Email:</span>
+                        <p class="footer__item-para">hello@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__container col l-2">
+                Về chúng tôi
+                <ul class="footer__items about">
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link about">Giới thiệu</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link about">Giao đổi trả hàng</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link about">Chính sách bảo mật</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link about">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__container col l-2">
+                Hướng dẫn
+                <ul class="footer__items help">
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link help">Hướng dẫn mua hàng</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link help">Hướng dẫn thanh toán</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link help">Tài khoản giao dịch</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__container col l-3">
+                Phương thức thanh toán
+                <ul class="footer__items pay">
+                    <li class="footer__item pay">
+                        <img class="footer__item-img" src="./assets/imgs/sacombank.jpg" alt="">
+                    </li>
+                    <li class="footer__item pay">
+                        <img class="footer__item-img" src="./assets/imgs/sacombank.jpg" alt="">
+                    </li>
+                    <li class="footer__item pay">
+                        <img class="footer__item-img" src="./assets/imgs/sacombank.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__container col l-2">
+                Liên kết
+                <ul class="footer__items link">
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link lk face">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link lk ytb">
+                            <i class='bx bxl-youtube' ></i>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link lk twtt">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__item-link lk gg">
+                            <i class='bx bxl-google' ></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <script src="./assets/Javascripts/main.js"></script>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 5,
+            spaceBetween: 10,
+            slidesPerGroup: 5,
+            loop: true,
+            loopFillGroupWithBlank: false,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+        <!-- Initialize Carousel -->
+        <script>
+            var swiper = new Swiper(".mycarousel", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+              }
+            });
+        </script>
+         <!-- Initialize Categories -->
+         
+        <script>
+            var swiper = new Swiper(".categories", {
+              slidesPerView: 8,
+              grid: {
+                rows: 1,
+              },
+              spaceBetween: 1,
+              pagination: {
+                el: ".categories-pagination",
+                clickable: true,
+              },
+            });
+        </script>
+</body>
+</html>
